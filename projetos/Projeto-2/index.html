@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Arquivo de estilização -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Venda seu carro!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Cadastre seu veículo para vender mais rápido!</h1>
+        </div>
+
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Venda fácil seu carro!</h1>
+                <p>Descreva as características opcionais que seu carro possui</p>
+
+                <form>
+                    <label for="ad-title">Título do anúncio:</label>
+                    <input type="text" name="ad-title" placeholder="Um título para anúnciar seu carro">
+
+                    <label for="car-price">Preço:</label>
+                    <input type="text" name="ad-price" placeholder="Defina o preço">
+
+                    <label for="car-description">Descrição:</label>
+                    <textarea name="ad-description" placeholder="Aqui você coloca os detalhes do veículo, por exemplo, se ele têm algum arranhão"></textarea>
+
+                    <label for="car-brand">Marca:</label>
+                    <input type="text" name="car-brand" placeholder="Digite a marca do veículo">
+
+                    <label for="car-model">Modelo:</label>
+                    <input type="text" name="car-model" placeholder="Digite o modelo do veículo">
+
+                    <label for="car-km">Kilometragem:</label>
+                    <input type="text" name="car-km" placeholder="Digite a kilometragem do veículo">
+
+                    <label for="car-date">Data de compra:</label>
+                    <input type="date" name="car-date">
+
+                    <label for="car-gearbox">Tipo de câmbio:</label>
+                    <select name="car-gearbox">
+                        <option value="car-manual">Manual</option>
+                        <option value="car-automatic">Automático</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
